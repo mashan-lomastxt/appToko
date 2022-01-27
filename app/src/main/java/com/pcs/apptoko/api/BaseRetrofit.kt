@@ -21,7 +21,7 @@ class BaseRetrofit {
             .build()
 
         val retrofit = Retrofit.Builder()
-            .baseUrl("http://apipcs.kokocozy.my.id/index.php/api_pcs/")
+            .baseUrl("#")
             .client(client)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
